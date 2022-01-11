@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
 	<?
-	$bg_color = "#ffffff";
+	$bg_color = "#fff";
 	if (isset($_GET["iv_color"])) {
 		$bg_color = $_GET["iv_color"];
 	}
@@ -24,7 +24,7 @@
 			<h1><?echo "Выбери любимый цвет" ?></h1>
 		</div>
 
-	< formaction="/LR2/" method="GET">
+	< formaction="/Iskakov/LR2/" method="GET">
 		< divclass="mb-3">
 			<label for="exampleColorInput" class="form-label">Color picker</label>
 			< name="iv_color" type="color" class="form-control form-control-color" id="exampleColorInput" value="<?=$bg_color;?>" title="Choose your color">
